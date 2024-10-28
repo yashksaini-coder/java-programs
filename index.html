@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSP Program 15</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        #res {
+            font-size: 2em;
+            color: #333;
+        }
+    </style>
+    <script>
+        function updateTime() {
+            const now = new Date();
+            const timeString = now.toLocaleTimeString();
+            const dateString = now.toLocaleDateString();
+            const date_time = dateString + ' ' + timeString;
+            document.getElementById('res').textContent = date_time;
+        }
+
+        setInterval(updateTime, 100);
+        window.onload = updateTime;
+    </script>
+</head>
+<body>
+    <h4>My Name is Yash Kumar Saini</h4><br>
+    <div id="res"></div>
+</body>
+</html>

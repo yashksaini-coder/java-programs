@@ -69,16 +69,16 @@ public class p6 {
     public static void main(String[] args) {
 // Single Inheritance
         System.out.println("Single Inheritance Example:-");
-        Student student = new Student("Yash", 20, "S1234");
+        Student student = new Student("Shivangi", 20, "S112341");
         student.displayStudentInfo();
 // Multilevel Inheritance
         System.out.println("\nMultilevel Inheritance Example:-");
-        GraduateStudent gradStudent = new GraduateStudent("Lokesh", 24, "G5678", "Artificial Intelligence");
+        GraduateStudent gradStudent = new GraduateStudent("Komal", 24, "G567812", "Artificial Intelligence");
         gradStudent.displayGraduateStudentInfo();
 
 // Hierarchical Inheritance
         System.out.println("\nHierarchical Inheritance Example:-");
-        ClassRepresentative classRep = new ClassRepresentative("Samar", 22, "S9876", "President");
+        ClassRepresentative classRep = new ClassRepresentative("Yash", 22, "S98716", "President");
         classRep.displayClassRepInfo();
     }
 }

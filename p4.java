@@ -28,15 +28,15 @@ System.out.println("Interest: " + computeInterest());
 
 public class p4 {
 public static void main(String[] args) {
-Customer customer1 = new Customer(19012004, "Yash", 50000);
-Customer customer2 = new Customer(22032003, "Lakshy", 85000);
-Customer customer3 = new Customer(04112003, "Paras", 15000);
-Customer customer4 = new Customer(24092004, "Deepanshu", 65000);
+// Customer customer1 = new Customer(19012004, "Yash", 50000);
+// Customer customer2 = new Customer(22032003, "Lakshy", 85000);
+Customer customer3 = new Customer(04112003, "Shivangi", 15000);
+// Customer customer4 = new Customer(24092004, "Deepanshu", 65000);
 
-customer1.displayDetails();
-customer2.displayDetails();
+// customer1.displayDetails();
+// customer2.displayDetails();
 customer3.displayDetails();
-customer4.displayDetails();
+// customer4.displayDetails();
 }
 }
 
