@@ -1,0 +1,7 @@
+/**
+ * This method calculates the factorial of a given number.
+ *
+ * @param n the number for which the factorial is to be calculated
+ * @return the factorial of the given number
+ * @throws IllegalArgumentException if the given number is negative
+ */
